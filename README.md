@@ -1,24 +1,4 @@
-# Alinma Pay -- CS-Cart Payment Gateway Integration
-
-## Overview
-
-This repository contains the **CS-Cart Payment Gateway plugin** for
-**Alinma Pay**.\
-It allows merchants to integrate their **CS-Cart online store** with the
-Alinma Pay Payment Gateway to securely accept online payments.
-
-The integration supports transaction initialization, encrypted response
-handling, and payment status processing.
-
-------------------------------------------------------------------------
-
-## Document Version
-
-  Version   Description    Date
-  --------- -------------- -------------
-  3.0.3     Base Version   04-Feb-2026
-
-------------------------------------------------------------------------
+# Alinma Pay CS-Cart Hosted
 
 # Introduction
 
@@ -73,7 +53,6 @@ Before starting the integration:
 3.  Upload files to your **CS‑Cart installation directory**:
 
 ```{=html}
-<!-- -->
 ```
     app/      → CS‑Cart app folder
     design/   → CS‑Cart design folder
@@ -82,7 +61,6 @@ Before starting the integration:
 5.  Navigate to:
 
 ```{=html}
-<!-- -->
 ```
     Settings → Payment Methods
 
@@ -100,9 +78,8 @@ Before starting the integration:
 4.  Upload and execute:
 
 ```{=html}
-<!-- -->
-```
     install_AlinmaPay.sql
+```
 
 ------------------------------------------------------------------------
 
@@ -283,3 +260,4 @@ For integration assistance, contact the **Alinma Pay Technical Support
 Team** through the Merchant Portal.
 
 ------------------------------------------------------------------------
+
