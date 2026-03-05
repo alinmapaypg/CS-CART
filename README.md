@@ -12,36 +12,23 @@ Before integrating the payment gateway, ensure that you have a
 **registered merchant account**.
 
 ------------------------------------------------------------------------
-
-# Requirements
-
-## Compatibility
-
-  Component   Version
-  ----------- ---------
+# Prerequisites
+```
   PHP         8.2.12
   CS‑Cart     4.18.3
-
-------------------------------------------------------------------------
-
-# Prerequisites
-
-Before starting the integration:
+```
 
 1.  Create a **Merchant Dashboard account**.
 2.  Obtain the required **merchant credentials**.
 
 ### Merchant Credentials
-
-  Attribute           Description
-  ------------------- ----------------------------------------------------
-  Terminal ID         Unique terminal identifier issued for the merchant
-  Terminal Password   Secure password issued for the terminal
-  Merchant Key        Secret key used for request and response hashing
+```
+| Terminal ID          // Unique terminal identifier issued for the merchant 
+| Terminal Password   // Secure password issued for the terminal              
+| Merchant Key       // Secret key used for request and response hashing
+```
 
 ⚠️ **Important:** Keep the Merchant Key confidential.
-
-------------------------------------------------------------------------
 
 # Plugin Installation
 
@@ -52,18 +39,13 @@ Before starting the integration:
 2.  Extract the plugin.
 3.  Upload files to your **CS‑Cart installation directory**:
 
-```{=html}
 ```
     app/      → CS‑Cart app folder
     design/   → CS‑Cart design folder
+```
 
 4.  Login to **CS‑Cart Admin Panel**.
-5.  Navigate to:
-
-```{=html}
-```
-    Settings → Payment Methods
-
+5.  Navigate to: Settings → Payment Methods
 6.  Click **+ Add Payment Method**.
 7.  Select **AlinmaPay** from the list.
 8.  Click **Save**.
@@ -76,8 +58,7 @@ Before starting the integration:
 2.  Select your **CS‑Cart database**.
 3.  Click **SQL** tab.
 4.  Upload and execute:
-
-```{=html}
+```
     install_AlinmaPay.sql
 ```
 
@@ -88,6 +69,7 @@ Before starting the integration:
 Navigate to the **Configuration Tab** and provide the following
 parameters:
 
+```
   Parameter                Description
   ------------------------ ------------------------------------------
   Merchant ID              Merchant account identifier
@@ -95,7 +77,7 @@ parameters:
   Transaction URL          Payment gateway transaction endpoint
   Transaction Status URL   Endpoint for checking transaction status
   Description              Payment method description
-
+```
 Click **Save & Close** after configuration.
 
 ------------------------------------------------------------------------
@@ -260,4 +242,5 @@ For integration assistance, contact the **Alinma Pay Technical Support
 Team** through the Merchant Portal.
 
 ------------------------------------------------------------------------
+
 
